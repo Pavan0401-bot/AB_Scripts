@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'Pavan0401-bot/jmetertest:v1.0'  // Your Docker image name
+        IMAGE_NAME = 'pavan9908/jmetertester1:v1.0'  // Your Docker image name
         TEST_REPO = 'https://github.com/Pavan0401-bot/AB_Scripts.git'  // Your GitHub repo URL
     }
 
